@@ -1,0 +1,87 @@
+:root {
+  --radius: 0.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 0.3rem;
+}
+
+.title {
+  background-color: #ffffff;
+  color: #284b63;
+  font-family: "Lexend Peta", sans-serif;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.title h1 {
+  margin: 0rem;
+  margin-top: 3rem;
+}
+
+/* .underline {
+  margin: 0 auto;
+  width: 10rem;
+  height: 0.4rem;
+  background: #9e2a2b;
+} */
+
+.input-container {
+  background-color: #ffffff;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  color: #152835;
+  width: 40vw;
+  height: 2rem;
+  margin: 1rem auto;
+  padding-left: 1rem;
+  background-color: #d9d9d9;
+  border: transparent;
+  border-radius: var(--radius);
+  line-height: 1rem;
+}
+
+input::placeholder {
+  font-family: "Lexend Deca", sans-serif;
+  color: #152835;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 20vw;
+  margin: 0 auto 2rem auto;
+  background-color: transparent;
+}
+
+button {
+  background-color: #d9d9d9;
+  margin: 0.8rem 1.5rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  letter-spacing: 0.1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #284b63;
+  color: #ffffff;
+}
